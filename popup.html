@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Excel File Processor</title>
+  <script src="lib\sheetjs-github\sheetjs-github\dist\xlsx.full.min.js"></script> <!-- Include the xlsx library -->
+  <script src="popup.js"></script>
+</head>
+<body>
+    <input type="file" id="excelFileInput" accept=".xlsx">
+    <button id="processButton">Process and Download - Workflow Modules Only</button>
+    <button id="fullJSON">Process and Download - All Modules</button>
+    <p id="statusMessage"></p>
+  </body>
+</html>
